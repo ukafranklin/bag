@@ -1,0 +1,76 @@
+@font-face {
+    src: url("fonts/CursedTimerULiL.ttf");
+    font-family: Cursed;
+}
+
+{
+  src: url("fonts/verdena.ttf");
+    font-family: Verdena;  
+}
+
+
+body {
+    margin: 0;
+    color: white
+    
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+}
+
+.score {
+    font-family: Cursed;
+    font-size: 90px;
+    color: #F94F6D;
+    text-align: center;
+}
+
+.counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+
+.container {
+    display: flex;
+    background-color: #1B244A;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#board {
+    margin: 30px;
+    border: 10px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 1px 26px rgba(0, 0, 0, 0.2); 
+}
+
+.addscore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.scorebutton {
+    font-family: Cursed;
+    background-color: transparent;
+    border: 1.5px solid #9AABD8;
+    border-radius: 5px;
+    padding: 10px;
+    color: #9AABD8;
+    
+}
